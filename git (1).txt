@@ -1,0 +1,62 @@
+1)Open Terminal
+2)Check if git is installed or not
+3)got to folder where your project is located
+4) cd Password_generator-project
+5) git init
+//your project is now git project and you can track yur project
+6)if its your first time on git you have to specify you name and email
+
+//google for Getting started first time git setup
+//git is used to create checkpoints for your project which is called commit
+
+
+7) git command for terminal
+
+* git status
+  //shows your commits
+  //untracked files
+
+* git add -A
+  //adds everything in your project to staged environment
+
+* git rm --cached <file> to unstage the files
+
+* git commit -m "Our first commit! "
+ // to make commit
+ //-m for message
+
+// if you make changes in your project and check git status yu can see the modified files
+
+* git add <file_path>
+ //adds specified file only
+
+* git commit -am "This is direct commit
+//commits directly without staging
+
+* git stash
+ // remove the changes if it is not staged
+
+* git reset HEAD <file.path>
+  //remove file from staging area
+
+* git log
+ // show your log
+
+* git checkout -m <file_path>
+ //revert the changes
+
+ * git checkout 'commitcode from log'
+  // move to previous checkpoint
+
+#### Add in github.com ######
+- new repository
+- create repository
+- push an existing repos from commmand line
+    -goto folder where your project is located
+    - copy code git remote add origin ....
+    - git push -u origin master
+
+
+    #### git apps
+    - Source tree
+    - gittower
